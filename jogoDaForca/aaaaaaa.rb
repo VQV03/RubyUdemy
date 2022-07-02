@@ -1,0 +1,1 @@
+puts [0, 0, 0, 0, 1].each_with_index.select { |num, index| num > 0 }.map { |pair| pair[1] }
